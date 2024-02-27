@@ -1,0 +1,195 @@
+body{
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+/* header section style start*/
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+  
+    background-color: #fff;
+    
+}
+.manu-section{
+    display: flex;
+    gap: 23rem;
+
+}
+
+.logo img{
+    margin-left: 5rem;
+    padding: 18px;
+}
+.manu{
+
+}
+.manu ul{
+
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+
+}
+.manu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+}
+.manu ul li a:first-child{
+   
+}
+.manu ul li a:hover{
+    color: #3085C3;
+}
+.manu ul li{
+    position: relative;
+}
+.manu ul li ul {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 120px;
+    background-color:#F3FDE8 ;
+    visibility: hidden;
+   opacity: 0;   
+    
+
+}
+.manu ul li ul li{
+   
+    display: block;
+
+}
+.manu ul li ul li a{
+   
+    display: block;
+    
+
+}
+.manu ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+/* header section style end*/
+/* hero section style start*/
+.container{
+    background-color: #F3FDE8;
+    display: flex;
+    gap: 70px;
+}
+.first-hreo{
+    margin-top: 230px;
+    margin-left: 100px;
+
+}
+.first-hreo h5{
+    
+
+}
+.first-hreo h1{
+   font-size: 3.4rem;
+
+}
+.first-hreo p{
+    font-size: 1rem;
+    line-height: 20px;
+    color: #CCC8AA;
+
+}
+.first-hreo input{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #3085C3;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+  
+
+}
+.first-hreo input:hover{
+    box-shadow: 5px 10px 30px rebeccapurple;
+
+
+}
+.second-hreo{
+    margin-top: 100px;
+
+}
+.second-hreo img{
+
+}
+/* hero section style send*/
+
+/*About me style start*/
+.about-me-section{
+    margin-top: 100px;
+}
+.about-me{
+    display: flex;
+    gap: 60px;
+
+}
+.about-me-img{
+
+}
+.about-me-img img{
+    margin-left: 100px;
+
+}
+.about-me-description{
+
+}
+.about-me-description h5{
+ 
+}
+.about-me-description h1{
+    font-size: 2rem;
+
+}
+.about-me-description p{
+    color: #CCC8AA;
+    line-height: 20px;
+
+}
+.about-me-description input{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #3085C3;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+
+}
+.about-me-description input:hover{
+    box-shadow: 5px 10px 30px rebeccapurple;
+
+
+}
+/*About me style end*/
+
+/*Section3 style start*/
+.section3{
+    
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.first-text h1{
+    font-size: 3rem;
+}
+.first-text p{
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #CCC8AA;
+}
+
+
+/*Section3 style end*/
